@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.sqlite3
+data/*.sqlite3-*
+data/*.log
+data/*.json
+data/prompts/
+vendor/wechat-cli/
+
+# Local WeChat/autoreply runtime state. These can contain private contacts,
+# message text, wxid values, generated replies, or machine-specific paths.
+autoreply/config.env
+autoreply/.enabled
+autoreply/.poll.lock/
+autoreply/logs/
+autoreply/*.sqlite3
+autoreply/*.sqlite3-*
+autoreply/scheduler_state.json
+autoreply/WeChatAutoReplySender.app/
+
+# macOS metadata and local/editor files.
+**/.DS_Store
+*.swp
+*.swo
